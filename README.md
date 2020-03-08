@@ -9,4 +9,4 @@
 * This simple algorithm can not solve every task. For example it couldn't solve 'MountainCar' task, because every population gets the same amount of reward and we cannot choose best from them.
 
 ## Task 3 (observing behaviour of evolved robots):
-* I checked behavious of acrobot and humanoid and they are working well
+* I checked behaviours of acrobot and humanoid and they are working well
