@@ -14,5 +14,6 @@
 ## Task 4 (comparing original(suited for RL) and modified(suited for genetic algorithms) reward functions)
 * Original = sum([alive, progress, electricity cost, joints at limit cost, feet collision cost]), Modified = sum([progress,joints at limit cost]), So the difference is that in modified function our reward only consists of 2 parts: we check the progress(distance travelled) and if robot had to reach limits of joints during movements, and in original we take care about much more parameters.
 * I think that original reward is not suitable for genetic algorithm because it's too complex
-* I trained Salimans algorithm for 10mln. steps and results are the following 
+* I trained Salimans algorithm for 10mln steps and results are the following(left - modified, right - original): 
+![Results of evolutionary algorithm on half cheetah environment](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/reward_shaping_results.jpg)
 
