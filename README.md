@@ -17,3 +17,9 @@
 * I trained Salimans algorithm for 10mln steps and results are the following(left - modified, right - original): 
 ![Results of evolutionary algorithm on half cheetah environment](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/reward_shaping_results.jpg)
 
+## Task 5 (creating new environment)
+
+* Implementation for balancebot_env.py introduced by guidelines returned the error 'Joint index out-of-range' , that's why i replaced this script by scipt from https://github.com/yconst/balance-bot.
+* After that i trained agent for 30mln steps and results are pretty good. Robot keeps balancing with a very small inclination.Here are the results
+![Results achieved by balancing robot environment](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/balancing_robot_results.jpg)
+
