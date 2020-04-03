@@ -29,9 +29,9 @@
 
 * The main difference between LSTM and feedforward architectures i discovered is that feedforward produces more oscillatory behaviour as compared to LSTM. Here you can see some of the results
 
-![LSTM](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/Task_6_lstm.gif)
+![LSTM](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/Task6_lstm.gif)
 
-![Feedforwarad](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/Task_6_feedforward.gif)
+![Feedforwarad](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/Task6_feedforward.gif)
 
 
 
