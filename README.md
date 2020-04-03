@@ -23,3 +23,16 @@
 * After that i trained agent for 30mln steps and results are pretty good. Robot keeps balancing with a very small inclination.Here are the results
 ![Results achieved by balancing robot environment](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/balancing_robot_results.jpg)
 
+## Task 6 (ErDiscrim environment)
+
+* In general i observed 2 types of behaviour, 1 - exploration oriented, 2 - exploitation oriented. I saw that some agents try to reach circular obstacle as soon as possible and stay near it to achieve highest reward, but some agents try to explore the map a little bit before moving to circular obstacle.
+
+* The main difference between LSTM and feedforward architectures i discovered is that feedforward produces more oscillatory behaviour as compared to LSTM. Here you can see some of the results
+
+![LSTM](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/Task_6_lstm.gif)
+
+![Feedforwarad](https://github.com/smileyenot983/Behavioural-and-cognitive-robotics/blob/master/Task_6_feedforward.gif)
+
+
+
+
